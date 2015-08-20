@@ -16,5 +16,6 @@ RUN wget -qO- https://rpm.nodesource.com/setup | bash - && \
     yum install -y nodejs && \
     npm install npm && \
     npm install -g n && \
-    n 0.12
+    n 0.12 && \
+    npm install -g express 
 
